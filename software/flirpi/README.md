@@ -1,7 +1,7 @@
 
 
 
-#Maryam Notes added to run smoothly on the Raspberry pi
+#My Notes added to run smoothly on the Raspberry pi
 ```
 sudo make
 ./leptgraypng >x.png
