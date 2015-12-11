@@ -1,3 +1,17 @@
+
+
+
+#Maryam Notes added to run smoothly on the Raspberry pi
+```
+sudo make
+./leptgraypng >x.png
+sudo apt-get install imagemagick
+convert x.png -normalize -contrast -sharpen 5 y.png
+```
+
+
+#Notes from Original author
+
 Released under the GPLv3
 
 These are miscellaneous utilities that work with the lepton module on the raspberry pi.
@@ -26,7 +40,3 @@ leptgraypng is so you can use ImageMagic, typically convert.  It takes the raw d
 I get good images with "./leptgraypng >x.png ; convert x.png -normalize -contrast -sharpen 5 y.png; fbi -a y.png"
 
 The lepton sensor has a lot of range, but if you simply threshold, you won't see much if there is both a hot and cold object in the view.  convert has more optons that can do things like high-pass filtering, so a hot handprint on the wall can be visible at the same time, but it requires some tweaking.  GIMP tends to flatten to 8 bits so can't do much.
-
-''''
-./leptgraypng >x.png
-''''
