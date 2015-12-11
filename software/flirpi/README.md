@@ -27,6 +27,6 @@ I get good images with "./leptgraypng >x.png ; convert x.png -normalize -contras
 
 The lepton sensor has a lot of range, but if you simply threshold, you won't see much if there is both a hot and cold object in the view.  convert has more optons that can do things like high-pass filtering, so a hot handprint on the wall can be visible at the same time, but it requires some tweaking.  GIMP tends to flatten to 8 bits so can't do much.
 
-'''''
+''''
 ./leptgraypng >x.png
-'''''
+''''
